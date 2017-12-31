@@ -1,0 +1,44 @@
+<widget id="A6068485136616" version="0.0.1">
+    <name>每日优鲜APP</name>
+    <description>
+        APICloud七天培训课，仿每日优鲜APP.
+    </description>
+    <author email="broad.zou@apicloud.com" href="http://www.apicloud.com">
+        broad
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <preference name="pageBounce" value="false" />
+    <preference name="appBackground" value="rgba(0,0,0,0.0)" />
+    <preference name="windowBackground" value="rgba(0,0,0,0.0)" />
+    <preference name="frameBackgroundColor" value="rgba(0,0,0,0.0)" />
+    <preference name="hScrollBarEnabled" value="true" />
+    <preference name="vScrollBarEnabled" value="true" />
+    <preference name="autoLaunch" value="true" />
+    <preference name="fullScreen" value="false" />
+    <preference name="autoUpdate" value="true" />
+    <preference name="smartUpdate" value="true" />
+    <preference name="debug" value="true" />
+    <preference name="statusBarAppearance" value="true" />
+    <preference name="softInputBarEnabled" value="false" />
+    <permission name="readPhoneState" />
+    <permission name="camera" />
+    <permission name="record" />
+    <permission name="location" />
+    <permission name="fileSystem" />
+    <permission name="internet" />
+    <permission name="bootCompleted" />
+    <permission name="hardware" />
+    <feature name="bMap">
+        <param name="android_api_key" value="4Anf3DEmTxvahnH9OhX8TBfyOcQArhlQ" />
+        <param name="ios_api_key" value="XVIG7olcyXQt1eo4q5G1KMo6gRk27uL7" />
+    </feature>
+    <feature name="pushGeTui">
+        <param name="ios_appkey" value="xCGkZR1bCp6gscLUB20Dl4" />
+        <param name="ios_appid" value="G5lfFkQZ008VoZUXydA2r2" />
+        <param name="ios_appsecret" value="RuxlC8ExWA7T4NFoJhQFd6" />
+        <param name="android_appkey" value="GuB3ubc4eS9cpJNu3IOGx" />
+        <param name="android_appid" value="WIIHXxst5R7aVAvnHACkj4" />
+        <param name="android_appsecret" value="OEkpEs3uUl9jCIbz2MYLw5" />
+    </feature>
+</widget>
